@@ -1,0 +1,18 @@
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    >p{
+        text-align: center;
+        padding: 10px;
+        font-size: 16px;
+        background-color: transparent;
+
+        >a{
+           background-color: transparent;
+           text-decoration: none; 
+        }
+    }
+}

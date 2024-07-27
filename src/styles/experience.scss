@@ -1,0 +1,96 @@
+@import "colors.scss";
+
+.experience-container{
+    margin: 5% 0;
+    padding: 10px;
+
+    >h2{
+        padding: 20px;
+        margin-top: 5%;
+        font-size: 40px;
+    }
+
+    >.animated-hr{
+        border: 0;
+        height: 4px;
+        background-color: $color1;
+        width: 180px;
+        margin-bottom: 30px;
+        animation: shrink-expand 2s infinite;
+    }
+
+    @keyframes shrink-expand {
+        0%, 100% {
+          width: 150px;
+        }
+        50% {
+          width: 0;
+        }
+      }
+
+
+    >.experience-cards{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 12%;
+
+        >.card{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 5% 0;
+
+            >.left{
+                flex-basis: 10%;
+                margin-left: 3%;
+                >p{
+                    padding: 10px;
+                    font-size: 20px;
+                    width: 90px;
+                    border-top-right-radius: 10px;
+                    border-bottom-right-radius: 100px;
+                    color: $color1;
+                    background-color: $colorBG2;
+
+                }
+            }
+            >.right{
+                flex-basis: 80%;
+                padding: 0 20px;
+
+                >h4{
+                    font-size: 28px;
+                    margin:  0 5px 0 ;
+                }
+                
+                >h6{
+                    font-size: 24px;
+                    margin: 5px 0;
+                    padding: 0 5px;
+                }
+                
+                >ul{
+                    font-size: 18px;
+                    margin-bottom: 25px;
+                    list-style: none;
+                    padding: 0 20px;
+
+                }
+                >a{
+                    text-decoration: none;
+                    padding: 10px;
+                    border: 3px solid $color1;
+                    border-radius: 10px;
+                    transition: all ease-in-out 0.5s;
+
+                    &:hover{
+                        color: $color1;
+                        border-color: black;
+                        transform: translateY(-5px);
+                    }
+                }
+            }
+        }
+    }
+}

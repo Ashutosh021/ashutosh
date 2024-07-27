@@ -1,0 +1,122 @@
+@import "colors.scss";
+
+.project-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    >h2{
+        font-size: 40px;
+        padding: 10px;
+        margin-top: 5%;
+    }
+    
+
+    >.animated-hr{
+        border: 0;
+        height: 4px;
+        background-color: $color1;
+        width: 180px;
+        margin-bottom: 30px;
+        animation: shrink-expand 2s infinite;
+    }
+
+    @keyframes shrink-expand {
+        0%, 100% {
+          width: 150px;
+        }
+        50% {
+          width: 0;
+        }
+      }
+
+
+    >.project-cards{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+
+        >.card{
+            background-color: $colorBG2;
+            padding: 10px;
+            border-radius: 10px;
+            height: 350px;
+            width: 350px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all ease-in-out 0.5s;
+            >img{
+                width: 340px;
+                border-radius: 10px;
+            }
+            
+            >.card-info{
+                display: none;
+                width: 300px;
+                height: 300px;
+                position: absolute;
+                padding: 15px;
+                border-radius: 15px;
+                background-color: rgba(0, 0, 0, 0.5);
+                >h4{
+                    text-align: center;
+                    font-size: 30px;
+                    color: $color1;
+                    background-color: rgba(0, 0, 0, 0.01);
+                }
+                >p{
+                    font-size: 18px;
+                    padding: 5px;
+                    background-color: rgba(0, 0, 0, 0.01);
+                    margin: 10px 0;
+                }
+                >.link{
+                    text-decoration: none;
+                    padding: 8px;
+                    font-size: 18px;
+                    border: 2px solid $color2;
+                    border-radius: 5px;
+                    margin-top: 12px;
+                    margin-left: 85px;
+                    background-color: rgba(0, 0, 0, 0.5);
+                    transition: all ease-in-out 0.4s;
+
+                    &:hover{
+                        border-color: rgba(0, 0, 0, 1);
+                        color: $color1;
+                    }
+                }
+            }
+            
+            &:hover{
+                >.card-info{
+                    display: block;
+                    background-color: rgba(0, 0, 0, 0.5);
+                }
+            }
+            
+        }
+    }
+
+    >.see-more-btn{
+        margin-top: 20px;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 10px;
+        font-weight: 500;
+        border: 3px solid $color1;
+        border-radius: 12px;
+        transition: all ease-in-out 0.5s;
+
+        &:hover{
+            color: $colorBG;
+            border: 3px solid $colorBG2;
+            background-color: $color1;
+            transform: translateY(-5px);
+        }
+    }
+}

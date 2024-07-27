@@ -1,0 +1,23 @@
+[
+  {
+    "projectImgSrc": "/projects/aiimagegenerator.jpg",
+    "projectTitle": "Ai Image Generator",
+    "projectDesc": "Implemented features like generate image using hotface.ai also saves user's history including image on cloudinary. Also implement authentication & authorization",
+    "skillsUsed": "React Node Express MongoDB Tailwind CSS BootStrap",
+    "link": "https://ai-front-end-six.vercel.app/"
+  },
+  {
+    "projectImgSrc": "/projects/ytclone.jpg",
+    "projectTitle": "YouTube UI Clone",
+    "projectDesc": "A YouTube UI clone project involves replicating the visual design and layout of YouTube's user interface. It includes the navigation bar, video player, search bar, and sidebar.",
+    "skillsUsed": "HTML CSS JS",
+    "link": "https://ashutosh021.github.io/Youtube-Clone/"
+  },
+  {
+    "projectImgSrc": "/projects/amazonclone.jpg",
+    "projectTitle": "Amazon UI Clone",
+    "projectDesc": "Implemented features like dynamic navigation, search functionality, and product carousels. Focused on replicating the design and user experience.",
+    "skillsUsed": "HTML CSS JS",
+    "link": "https://ashutosh021.github.io/webprojects/amazon-clone/pages/"
+  }
+]

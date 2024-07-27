@@ -1,0 +1,50 @@
+[
+    {
+        "skillImgSrc":"/skills/c.png",
+        "skillName":"C"
+    },
+    {
+        "skillImgSrc":"/skills/cpp.png",
+        "skillName":"C++"
+    },
+    {
+        "skillImgSrc":"/skills/java.png",
+        "skillName":"JAVA"
+    },
+    {
+        "skillImgSrc":"/skills/htmlcss.jpeg",
+        "skillName":"HTML & CSS"
+    },
+    {
+        "skillImgSrc":"/skills/js.png",
+        "skillName":"JavaScript"
+    },
+    {
+        "skillImgSrc":"/skills/reactjs.png",
+        "skillName":"REACT"
+    },
+    {
+        "skillImgSrc":"/skills/nodejs.png",
+        "skillName":"NODE JS"
+    },
+    {
+        "skillImgSrc":"/skills/expressjs.png",
+        "skillName":"EXPRESS JS"
+    },
+    {
+        "skillImgSrc":"/skills/mongodb.png",
+        "skillName":"MONGO DB"
+    },
+    {
+        "skillImgSrc":"/skills/tailwindcss.png",
+        "skillName":"Tailwind CSS"
+    },
+    {
+        "skillImgSrc":"/skills/sass.jpeg",
+        "skillName":"SASS"
+    },
+    {
+        "skillImgSrc":"/skills/bootstrap.png",
+        "skillName":"BootStrap"
+    }
+]

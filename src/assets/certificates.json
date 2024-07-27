@@ -1,0 +1,23 @@
+[
+    {
+        "certImgSrc":"/certificate/c.jpg",
+        "skillName":"C Programming",
+        "completionDate":"Jan 2024",
+        "platform":"linkedin learning",
+        "link":"https://www.linkedin.com/learning/certificates/2a03992538d471123000517f236ecac1205e3dcf1444a5182499f43d5a3fe113?u=236312842"
+    },
+    {
+        "certImgSrc":"/certificate/cpp.jpg",
+        "skillName":"Learning C++",
+        "completionDate":"Sept 2023",
+        "platform":"linkedin learning",
+        "link":"https://www.linkedin.com/learning/certificates/2373abe5cdf44b8ba3b63a557579dff80b5fd71226bd19123172de064bdbe7b8?u=236312842"
+    },
+    {
+        "certImgSrc":"/certificate/css.jpg",
+        "skillName":"CSS Essential Training",
+        "completionDate":"Dec 2023",
+        "platform":"linkedin learning",
+        "link":"https://www.linkedin.com/learning/certificates/dc5f800e58cf04605f9fafb87efe06157d777f362c75a2496ed085dc1cfc4f01?u=236312842"
+    }
+]

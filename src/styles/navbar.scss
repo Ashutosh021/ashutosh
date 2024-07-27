@@ -1,0 +1,130 @@
+@import "colors.scss";
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    margin-bottom: 10px;
+  
+    >.logo-container {
+      flex-basis: 40%;
+  
+      >.logo {
+        font-size: 25px;
+        font-family: cursive;
+        margin-top: 0;
+        margin-left: 20px;
+        color: $color1;
+  
+        >span {
+          color: $color2;
+          font-size: 50px;
+        }
+      }
+    }
+  
+    >.nav-tab-container {
+      flex-basis: 40%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+
+      >.nav-tabs {
+        margin-right: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+  
+        >.nav-tab {
+          text-decoration: none;
+          font-size: 20px;
+          font-weight: 500;
+          transition: all ease-in-out 0.3s;
+          &:hover{
+              color: $hover;
+              border-bottom: 3px solid $color2;
+          }
+        }
+
+      }
+  
+      >.closeIt {
+        display: none;
+      }
+  
+      >.openIt {
+        display: none;
+      }
+  
+      &.open {
+        flex-direction: column;
+        justify-content: space-evenly;
+      }
+    }
+  }
+  
+  
+  @media screen and (max-width: 820px) {
+    .main {
+      flex-direction: row;
+  
+      >.nav-tab-container {
+        position: relative;
+        height: auto;
+        width: 100%;
+        justify-content: flex-end;
+  
+        >.nav-tabs {
+          display: none;
+        }
+  
+        &.open {
+          background-color: $colorBG;
+          position: absolute;
+          top: 60px; /* Adjust this value based on your navbar height */
+          height: calc(100vh - 60px); /* Adjust this value based on your navbar height */
+          width: 70vw;
+          right: 0;
+          border-radius: 10px;
+          flex-direction: column;
+          justify-content: flex-start;
+          padding-top: 20px;
+  
+          >.nav-tabs {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            flex-basis: 0%;
+  
+            >.nav-tab {
+              margin: 10px 0;
+               
+              &:hover{
+                color: $hover;
+              }
+            }
+          }
+  
+          >.closeIt {
+            display: block;
+            font-size: 40px;
+            position: absolute;
+            top: 20px;
+            right: 10px;
+          }
+        }
+  
+        >.openIt {
+          display: block;
+          font-size: 30px;
+          margin-right: 25px;
+        }
+      }
+    }
+  }

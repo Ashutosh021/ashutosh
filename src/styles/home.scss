@@ -1,0 +1,116 @@
+@import "colors.scss";
+
+
+.main-container{
+    height: calc(100vh - 60px);
+    background-image: url('/images/background_3.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    >.main-text{
+        width: 300px;
+        font-size: 20px;
+        margin-left: 5%;
+        margin-top: 10%;
+        background-color: transparent;
+        
+        >p{
+            background-color: transparent;
+            letter-spacing: 2px;
+            margin-bottom: 16px;
+            >span{
+                color: $color2;
+                background-color: transparent;
+                font-size: 30px;
+            }
+        }
+
+        >a{
+            text-decoration: none;
+            margin: 5px;
+            padding: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 10px;
+            background-color: transparent;
+            border: 3px solid $color2;
+            transition: all ease-in-out 0.4s;
+            
+            &:hover{
+                border: 3px solid white;
+                color: $color2;
+                cursor: pointer;
+            }
+        }
+    }
+    >.social-icons-container{
+        width: 250px;
+        display: flex;
+        justify-content: space-evenly;
+        background-color: transparent;
+        margin-top: 20px;
+        margin-left: 3%;
+        
+        >.social-icon{
+            padding: 5px;
+            font-size: 35px;
+            background-color: transparent;
+            transition: all ease-in-out 0.2s;
+
+            >.icon{
+                background-color: transparent;
+            }
+            &:hover{
+                transform: translateY(-5px);
+                transform: scale(1.5);
+                color: $color1;
+                cursor: pointer;
+            }
+        }
+
+    }
+    
+}
+
+
+@media screen and (min-width: 818px) {
+    .main-container{
+        background-image: url('/images/background.png');
+        
+        >.main-text{
+            margin-top: 0;
+            margin-left: 15%;
+            font-size: 30px;
+            width: 400px;
+        }
+        >.social-icons-container{
+            width: 400px;
+            font-size: 40px;
+            margin-left: 12%;
+        }
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .main-container{
+        
+        background-image: url('/images/background_2.png');
+
+        >.main-text{
+            margin-top: 80%;
+            background-position: 90px;
+
+            >p{
+                margin-bottom: 12px;
+            }
+
+            >button{
+                margin: 4px;
+            }
+        }
+    }
+}
