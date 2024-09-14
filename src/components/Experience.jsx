@@ -10,7 +10,23 @@ const Experience = () => {
       <div className="experience-cards">
       <div className="card">
           <div className="left">
-            <p>2024</p>
+            <p>AUG 2024</p>
+          </div>
+          <div className="right">
+            <h4>Web Development Intern | CodeClause </h4>
+            <h6>Remote </h6>
+            <ul>
+              <li>Engaged in hands-on learning of web technologies and development practices.</li>
+              <li>Built clones of popular platforms such as YouTube and Amazon using HTML and CSS, reinforcing front-end
+              development skills.</li>
+            </ul>
+            <a href="https://drive.google.com/file/d/1RE2jmg3r66UhEc9_53jvbJdlZMuYZ2ed/view?usp=drivesdk">Checkout Certificate</a>
+          </div>
+        </div>
+      
+      <div className="card">
+          <div className="left">
+            <p>OCT 2023</p>
           </div>
           <div className="right">
             <h4>Web Development and Designing Intern | Oasis Infobyte</h4>
@@ -24,7 +40,7 @@ const Experience = () => {
         </div>
         <div className="card">
           <div className="left">
-            <p>2021</p>
+            <p>NOV 2021</p>
           </div>
           <div className="right">
             <h4>DSA Intern | TwoWaits Technologies</h4>

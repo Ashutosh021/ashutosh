@@ -24,7 +24,7 @@ const Home = () => {
             Full Stack Web Developer
           </p>
           <a
-            href="https://drive.google.com/file/d/1MmyrF2hVUFb5xHVdGwFVWvYCztTfkMqv/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/12XQZn6gsvk3ByaWpmiEHVT4-n5-h1Uxh/view?usp=sharing"
             target="_blank"
           >
             Resume

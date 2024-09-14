@@ -12,9 +12,7 @@ const About = () => {
         Meerut Institute of Technology and am currently pursuing a Master's in
         Computer Applications at KIET Group of Institutions.<br/> I have hands-on
         experience developing web applications using HTML, CSS, JavaScript,
-        React, and other modern technologies. My portfolio includes projects
-        like a YouTube UI clone, a ToDo web app, and a responsive personal
-        portfolio website.<br /> I am passionate about creating efficient,
+        React, and other modern technologies. <br /> I am passionate about creating efficient,
         user-friendly web solutions and continuously improving my skills.
       </p>
     </div>

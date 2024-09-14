@@ -1,18 +1,21 @@
 @import "colors.scss";
 
-.about-container{
+.about-container {
     padding: 10px;
     margin: 5% 0;
-    >h2{
+
+    > h2 {
         padding: 10px;
         font-size: 40px;
         letter-spacing: 1.2px;
     }
-    >p{
+
+    > p {
         margin: 0 10%;
         word-spacing: 1.5px;
         font-size: 20px;
-        >hr{
+
+        > hr {
             display: inline-block;
             height: 3px;
             border: 0;
@@ -20,6 +23,25 @@
             width: 50px;
             margin-right: 20px;
             margin-bottom: 3px;
+        }
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .about-container {
+        > h2 {
+            font-size: 32px; 
+        }
+
+        > p {
+            margin: 0 5%;
+            font-size: 18px; 
+
+            > hr {
+                height: 2px; 
+                width: 30px; 
+                margin-right: 10px; 
+            }
         }
     }
 }
