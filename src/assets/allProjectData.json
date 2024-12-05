@@ -1,79 +1,16 @@
 [
-    {
-        "projectImgSrc":"/projects/vite.png",
-        "projectTitle":"C",
-        "projectDesc":"Hii there is the project description of the projad as fajfka akfjskdf j",
-        "skillsUsed":"C++ Java React Node",
-        "link":"www.google.com"
-    },
-    {
-        "projectImgSrc":"/projects/vite.png",
-        "projectTitle":"C++",
-        "projectDesc":"Hii there is the project description of the projad as fajfka akfjskdf j",
-        "skillsUsed":"C++ Java React Node",
-        "link":"http://www.google.com"
-    },
-    {
-        "projectImgSrc":"/projects/vite.png",
-        "projectTitle":"JAVA",
-        "projectDesc":"Hii there is the project description of the projad as fajfka akfjskdf j",
-        "skillsUsed":"C++ Java React Node",
-        "link":"www.google.com"
-    },
-    {
-        "projectImgSrc":"/projects/vite.png",
-        "projectTitle":"JAVA",
-        "projectDesc":"Hii there is the project description of the projad as fajfka akfjskdf j",
-        "skillsUsed":"C++ Java React Node",
-        "link":"www.google.com"
-    },
-    {
-        "projectImgSrc":"/projects/vite.png",
-        "projectTitle":"JAVA",
-        "projectDesc":"Hii there is the project description of the projad as fajfka akfjskdf j",
-        "skillsUsed":"C++ Java React Node",
-        "link":"www.google.com"
-    },
-    {
-        "projectImgSrc":"/projects/vite.png",
-        "projectTitle":"JAVA",
-        "projectDesc":"Hii there is the project description of the projad as fajfka akfjskdf j",
-        "skillsUsed":"C++ Java React Node",
-        "link":"www.google.com"
-    },
-    {
-        "projectImgSrc":"/projects/vite.png",
-        "projectTitle":"JAVA",
-        "projectDesc":"Hii there is the project description of the projad as fajfka akfjskdf j",
-        "skillsUsed":"C++ Java React Node",
-        "link":"www.google.com"
-    },
-    {
-        "projectImgSrc":"/projects/vite.png",
-        "projectTitle":"JAVA",
-        "projectDesc":"Hii there is the project description of the projad as fajfka akfjskdf j",
-        "skillsUsed":"C++ Java React Node",
-        "link":"www.google.com"
-    },
-    {
-        "projectImgSrc":"/projects/vite.png",
-        "projectTitle":"JAVA",
-        "projectDesc":"Hii there is the project description of the projad as fajfka akfjskdf j",
-        "skillsUsed":"C++ Java React Node",
-        "link":"www.google.com"
-    },
-    {
-        "projectImgSrc":"/projects/vite.png",
-        "projectTitle":"JAVA",
-        "projectDesc":"Hii there is the project description of the projad as fajfka akfjskdf j",
-        "skillsUsed":"C++ Java React Node",
-        "link":"www.google.com"
-    },
-    {
-        "projectImgSrc":"/projects/vite.png",
-        "projectTitle":"JAVA",
-        "projectDesc":"Hii there is the project description of the projad as fajfka akfjskdf j",
-        "skillsUsed":"C++ Java React Node",
-        "link":"www.google.com"
-    }
+      {
+        "projectImgSrc": "/projects/ytclone.jpg",
+        "projectTitle": "YouTube UI Clone",
+        "projectDesc": "A YouTube UI clone project involves replicating the visual design and layout of YouTube's user interface. It includes the navigation bar, video player, search bar, and sidebar.",
+        "skillsUsed": "HTML CSS JS",
+        "link": "https://ashutosh021.github.io/Youtube-Clone/"
+      },
+      {
+        "projectImgSrc": "/projects/amazonclone.jpg",
+        "projectTitle": "Amazon UI Clone",
+        "projectDesc": "Implemented features like dynamic navigation, search functionality, and product carousels. Focused on replicating the design and user experience.",
+        "skillsUsed": "HTML CSS JS",
+        "link": "https://ashutosh021.github.io/webprojects/amazon-clone/pages/"
+      }
 ]

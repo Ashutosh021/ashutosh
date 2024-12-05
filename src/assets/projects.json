@@ -1,23 +1,23 @@
 [
   {
-    "projectImgSrc": "/projects/aiimagegenerator.jpg",
-    "projectTitle": "Ai Image Generator",
-    "projectDesc": "Implemented features like generate image using hotface.ai also saves user's history including image on cloudinary. Also implement authentication & authorization",
-    "skillsUsed": "React Node Express MongoDB Tailwind CSS BootStrap",
+    "projectImgSrc": "/projects/Placetrack.png",
+    "projectTitle": "PlaceTrack",
+    "projectDesc": "**PlaceTrack**: A platform designed to streamline placement drives by enabling secure authentication for students and teachers. It features slot creation, real-time location tracking with proof upload, and PDF export of filtered student data by batch and section.",
+    "skillsUsed": "EJS, Node.js, Express.js, MongoDB",
+    "link": "https://placetrack.onrender.com/"
+  },
+  {
+    "projectImgSrc": "/projects/Ai-Image.png",
+    "projectTitle": "Artify AI",
+    "projectDesc": "**Artify AI** is an AI-powered image generator where users can sign up or log in with email and password. Users can create stunning images with prompts, view them in a history section, and easily delete or download their generated visuals for personal or professional use.",
+    "skillsUsed": "React Node Express MongoDB Tailwind SCSS",
     "link": "https://ai-front-end-six.vercel.app/"
   },
   {
-    "projectImgSrc": "/projects/ytclone.jpg",
-    "projectTitle": "YouTube UI Clone",
-    "projectDesc": "A YouTube UI clone project involves replicating the visual design and layout of YouTube's user interface. It includes the navigation bar, video player, search bar, and sidebar.",
-    "skillsUsed": "HTML CSS JS",
-    "link": "https://ashutosh021.github.io/Youtube-Clone/"
-  },
-  {
-    "projectImgSrc": "/projects/amazonclone.jpg",
-    "projectTitle": "Amazon UI Clone",
-    "projectDesc": "Implemented features like dynamic navigation, search functionality, and product carousels. Focused on replicating the design and user experience.",
-    "skillsUsed": "HTML CSS JS",
-    "link": "https://ashutosh021.github.io/webprojects/amazon-clone/pages/"
+    "projectImgSrc": "/projects/ElectroVote.png",
+    "projectTitle": "ElectroVote",
+    "projectDesc": "**ElectroVote** is a secure voting platform with roles for voters and admins. Voters sign up with Aadhaar, vote once, ensuring fairness. Admins manage elections by nominating, updating, or withdrawing candidates and tracking votes. The platform ensures transparency, reliability, and ease in conducting and managing elections.",
+    "skillsUsed": "EJS, Node.js, Express.js, MongoDB",
+    "link": "https://electrovote.onrender.com/"
   }
 ]

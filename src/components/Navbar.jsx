@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { HashLink } from "react-router-hash-link";
 import { FiMenu, FiXCircle } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 
 import "../styles/navbar.scss"

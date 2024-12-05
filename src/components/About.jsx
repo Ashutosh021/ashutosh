@@ -12,7 +12,7 @@ const About = () => {
         Meerut Institute of Technology and am currently pursuing a Master's in
         Computer Applications at KIET Group of Institutions.<br/> I have hands-on
         experience developing web applications using HTML, CSS, JavaScript,
-        React, and other modern technologies. <br /> I am passionate about creating efficient,
+        React, Node.js, Express.js, MongoDB and other modern technologies. <br /> I am passionate about creating efficient,
         user-friendly web solutions and continuously improving my skills.
       </p>
     </div>
